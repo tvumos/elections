@@ -7,8 +7,8 @@ from lxml import html
 
 DELIMITER = '|'
 url = 'http://www.moscow_city.vybory.izbirkom.ru/region/region/moscow_city?action=show&root=1&tvd=27720002197406&vrn=27720002197402&region=77&global=&sub_region=77&prver=0&pronetvd=null&vibid=27720002197406&type=234'
-FILE_NAME_DESCRIPTION = 'Description.scv'
-FILE_NAME_RESULT = 'Moscow_09_09_2018.scv'
+FILE_NAME_DESCRIPTION = 'Description.csv'
+FILE_NAME_RESULT = 'Moscow_09_09_2018.csv'
 
 
 def save_header_to_file(dict_header):
