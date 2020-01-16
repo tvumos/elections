@@ -3,7 +3,7 @@ from telebot import apihelper
 import time
 import csv
 
-TKN = '807168173:AAFFvGWnjxGpIzsGHADQrMLnNLXSOT1d31M'
+TKN = 'key'
 
 
 bot = telebot.TeleBot(TKN)
